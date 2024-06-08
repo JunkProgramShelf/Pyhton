@@ -211,9 +211,11 @@ void Check_Command(char *c,bool flag){
 		
 	}else{
 		printf("sorry.I can't found your input command...%s",c);
+		check_flag=false;
 	}
 	if(!check_flag){
 		printf("sorry.I can't found your input command...%s",c);
+		check_flag=false;
 	}
 	
 }
